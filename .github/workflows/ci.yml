@@ -2,9 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ "setup-task" ]
-  pull_request:
-    branches: [ "setup-task" ]
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -17,4 +15,8 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install -r requirements.txt
+      - name: Check Python version
+        run: python --version
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
