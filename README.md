@@ -56,7 +56,8 @@ jupyter notebook
 
 * Run:
 
-  * `ethiopia_eda.ipynb` 
+  * `ethiopia_eda.ipynb`
+  * `compare_countries.ipynb` 
   
 
 
@@ -68,8 +69,9 @@ climate-challenge-week0/
 │
 ├── data/                
 ├── notebooks/
-│   └── ethiopia_eda.ipynb
-├── .github/workflows/
+│   ├── ethiopia_eda.ipynb
+|   |__ compare_countries.ipynb
+|├── .github/workflows/
 │   └── ci.yml
 ├── requirements.txt
 ├── .gitignore
