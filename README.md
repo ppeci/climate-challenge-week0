@@ -1,66 +1,90 @@
-# Climate Challenge Project
+# Climate Data Analysis Project
 
-## Setup Instructions
+##  Project Overview
 
-Follow these steps to reproduce the environment:
+This project analyzes climate data across five African countries to identify trends in temperature, precipitation, and extreme weather events. The goal is to assess climate vulnerability and support Ethiopia’s position for COP32.
 
-### 1. Clone the repository
+
+
+##  Features
+
+* Data cleaning and preprocessing
+* Exploratory Data Analysis (EDA) per country
+* Cross-country comparison
+* Temperature and precipitation analysis
+* Extreme heat and drought detection
+* Climate vulnerability ranking
+
+
+
+##  Environment Setup
+
+1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone <your-repo-link>
 cd climate-challenge-week0
 ```
 
-### 2. Create virtual environment
+2. Create virtual environment:
 
 ```bash
 python -m venv nenv
 ```
 
-### 3. Activate environment
-
-**Windows:**
+3. Activate environment:
 
 ```bash
 nenv\Scripts\activate
 ```
 
-**Mac/Linux:**
-
-```bash
-source nenv/bin/activate
-```
-
-### 4. Install dependencies
+4. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
 
-## Continuous Integration (CI)
 
-This project uses GitHub Actions to:
+##  Running the Analysis
 
-* check Python version
-* install dependencies automatically on push
+* Open Jupyter Notebook:
 
----
-
-## Project Structure
-
+```bash
+jupyter notebook
 ```
+
+* Run:
+
+  * `ethiopia_eda.ipynb` (Task 2)
+  * `compare_countries.ipynb` (Task 3)
+
+
+
+## 📁 Project Structure
+
+
 climate-challenge-week0/
 │
-├── .github/
-│   └── workflows/
-│       └── ci.yml
-│
-├── nenv/              # virtual environment (ignored)
-├── data/              # datasets (ignored)
+├── data/                # (ignored in Git)
+├── notebooks/
+│   ├── ethiopia_eda.ipynb
+│   └── compare_countries.ipynb
+├── .github/workflows/
+│   └── ci.yml
 ├── requirements.txt
 ├── .gitignore
 └── README.md
 ```
+
+
+
+##  Output
+
+* Cleaned datasets (excluded from repo)
+* Visualizations and analysis
+* Climate vulnerability insights for COP32
+
+
+
 
