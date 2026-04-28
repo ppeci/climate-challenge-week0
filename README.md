@@ -56,20 +56,19 @@ jupyter notebook
 
 * Run:
 
-  * `ethiopia_eda.ipynb` (Task 2)
-  * `compare_countries.ipynb` (Task 3)
+  * `ethiopia_eda.ipynb` 
+  
 
 
 
-## 📁 Project Structure
+## Project Structure
 
 
 climate-challenge-week0/
 │
-├── data/                # (ignored in Git)
+├── data/                
 ├── notebooks/
-│   ├── ethiopia_eda.ipynb
-│   └── compare_countries.ipynb
+│   └── ethiopia_eda.ipynb
 ├── .github/workflows/
 │   └── ci.yml
 ├── requirements.txt
@@ -81,7 +80,7 @@ climate-challenge-week0/
 
 ##  Output
 
-* Cleaned datasets (excluded from repo)
+* Cleaned dataset
 * Visualizations and analysis
 * Climate vulnerability insights for COP32
 
